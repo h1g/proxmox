@@ -1,0 +1,21 @@
+{
+    "name": "h1g/proxmox",
+    "description": "Laravel 5 Bindings for the ZzAntares ProxmoxVE composer package",
+    "require": {
+        "php": ">=5.4.0",
+        "zzantares/proxmoxve": "~3.0"
+    },
+    "license": "LGPL-3",
+    "authors": [
+        {
+            "name": "h1g",
+            "email": "g.novicov@gmail.com"
+        }
+    ],
+    "autoload": {
+	    "psr-0": {
+            "h1g\\Proxmox": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
